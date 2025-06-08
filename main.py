@@ -39,7 +39,7 @@ def cmd_run(args):
 
     messages = build_prompt(hunks)
     plan = call_deepseek(messages)
-    print("shiting")
+    print("commmiting")
     schedule_execute_commits(plan)
 
 
